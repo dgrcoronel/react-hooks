@@ -16,7 +16,7 @@ const UseMemo = (props) => {
 
   return (
     <div className="UseMemo">
-      <PageTitle title="Hook UseMemo" subtitle="Retorna um valor memorizado!" />
+      <PageTitle title="Hook UseMemo" subtitle="Retorna um valor memorizado (valor em cache)!" />
       <div className="center">
         <input
           type="number"
